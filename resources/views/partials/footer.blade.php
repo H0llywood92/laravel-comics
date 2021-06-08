@@ -158,31 +158,31 @@
                     
                     <li>
 
-                        <img src=" {{ asset('img/footer-facebook.png') }} " alt="">
+                        <a href="#" target="_blank"><img src=" {{ asset('img/footer-facebook.png') }} " alt="facebook"></a>
 
                     </li>
 
                     <li>
 
-                        <img src=" {{ asset('img/footer-twitter.png') }} " alt="">
+                        <a href="#" target="_blank"><img src=" {{ asset('img/footer-twitter.png') }} " alt="twitter"></a>
 
                     </li>
 
                     <li>
 
-                        <img src=" {{ asset('img/footer-youtube.png') }} " alt="">
+                        <a href="#" target="_blank"><img src=" {{ asset('img/footer-youtube.png') }} " alt="youtube"></a>
 
                     </li>
 
                     <li>
 
-                        <img src=" {{ asset('img/footer-pinterest.png') }} " alt="">
+                        <a href="#" target="_blank"><img src=" {{ asset('img/footer-pinterest.png') }} " alt="pinterest"></a>
 
                     </li>
 
                     <li>
 
-                        <img src=" {{ asset('img/footer-periscope.png') }} " alt="">
+                        <a href="#" target="_blank"><img src=" {{ asset('img/footer-periscope.png') }} " alt="periscope"></a>
 
                     </li>
 

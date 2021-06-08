@@ -237,3 +237,6 @@ footer .bg-grey .container .follow .follow-text {
 footer .bg-grey .container .follow .social-menu li {
   padding: 0 10px;
 }
+footer .bg-grey .container .follow .social-menu li img {
+  cursor: pointer;
+}
