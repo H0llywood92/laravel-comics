@@ -1,0 +1,90 @@
+main {
+
+    .main-content  {
+        background-color: #1c1c1c;
+        padding-top: 60px;
+        position: relative;
+
+        .current {
+            color: #ffffff;
+            background-color: $brand_primary;
+            position: absolute;
+            top: -40px;
+            left: auto;
+            padding: 20px;
+            text-transform: uppercase;
+        }
+
+        .container {
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .single-box {
+                width: calc((100% / 6) - 10px);
+                padding: 0 10px;
+                padding-bottom: 10px;
+                cursor: pointer;
+
+                .image-box {
+                    height: 200px;
+                    overflow: hidden;
+                }
+    
+                h3 {
+                    padding: 20px 0;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+            }
+
+        }
+
+        .load-btn {
+            background-color: $brand_primary;
+            padding: 10px 45px;
+            border: 0;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: block;
+            margin: 20px auto;
+            outline: 0;
+            cursor: pointer;
+        }
+
+
+        .bg-blue {
+            background-color: $brand_primary;
+
+            .container {
+                justify-content: space-between;
+
+                .single-item {
+                    align-items: center;
+                    padding: 20px 0;
+                    cursor: pointer;
+
+                    img {
+                        height: 50px;
+                        color: #ffffff;
+
+                    }
+
+                    p {
+                        text-transform: uppercase;
+                        color: #ffffff;
+                        padding: 0 10px;
+                        font-size: 14px;
+                    }
+
+                    &:last-child img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

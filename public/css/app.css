@@ -87,4 +87,77 @@ header .header-content .container .search-content i {
 header .jumbotron {
   height: 400px;
   overflow: hidden;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
+
+main .main-content {
+  background-color: #1c1c1c;
+  padding-top: 60px;
+  position: relative;
+}
+main .main-content .current {
+  color: #ffffff;
+  background-color: #0282f9;
+  position: absolute;
+  top: -40px;
+  left: auto;
+  padding: 20px;
+  text-transform: uppercase;
+}
+main .main-content .container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .main-content .container .single-box {
+  width: calc((100% / 6) - 10px);
+  padding: 0 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+main .main-content .container .single-box .image-box {
+  height: 200px;
+  overflow: hidden;
+}
+main .main-content .container .single-box h3 {
+  padding: 20px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+main .main-content .load-btn {
+  background-color: #0282f9;
+  padding: 10px 45px;
+  border: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  outline: 0;
+  cursor: pointer;
+}
+main .main-content .bg-blue {
+  background-color: #0282f9;
+}
+main .main-content .bg-blue .container {
+  justify-content: space-between;
+}
+main .main-content .bg-blue .container .single-item {
+  align-items: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+main .main-content .bg-blue .container .single-item img {
+  height: 50px;
+  color: #ffffff;
+}
+main .main-content .bg-blue .container .single-item p {
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 10px;
+  font-size: 14px;
+}
+main .main-content .bg-blue .container .single-item:last-child img {
+  width: 50px;
 }

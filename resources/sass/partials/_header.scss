@@ -96,5 +96,7 @@ header {
     .jumbotron {
         height: 400px;
         overflow: hidden;
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
     }
 }
