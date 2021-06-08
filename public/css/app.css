@@ -17,6 +17,10 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 header li {
   text-transform: uppercase;
 }
@@ -141,7 +145,7 @@ main .main-content .bg-blue {
   background-color: #0282f9;
 }
 main .main-content .bg-blue .container {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 main .main-content .bg-blue .container .single-item {
   align-items: center;
@@ -160,4 +164,77 @@ main .main-content .bg-blue .container .single-item p {
 }
 main .main-content .bg-blue .container .single-item:last-child img {
   width: 50px;
+}
+
+footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+}
+footer .container .links-menu {
+  width: 50%;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+footer .container .links-menu .menu {
+  list-style-type: none;
+  padding-right: 30px;
+}
+footer .container .links-menu .menu li {
+  padding: 3px 0;
+}
+footer .container .links-menu .menu li h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+footer .container .links-menu .menu li a {
+  color: #535455;
+  font-size: 14px;
+}
+footer .container .links-menu p {
+  padding: 20px 0;
+  color: #535455;
+  font-size: 14px;
+}
+footer .container .footer-image {
+  width: 50%;
+  text-align: end;
+  position: relative;
+  overflow: hidden;
+}
+footer .container .footer-image img {
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+footer .bg-grey {
+  background-color: #303030;
+  padding: 40px 0;
+}
+footer .bg-grey .container {
+  justify-content: space-between;
+  align-items: center;
+}
+footer .bg-grey .container .access {
+  width: 50%;
+}
+footer .bg-grey .container .access .sign-up {
+  border: 2px solid #0282f9;
+  padding: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+footer .bg-grey .container .follow {
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+footer .bg-grey .container .follow .follow-text {
+  color: #0282f9;
+  font-weight: bold;
+  font-size: 22px;
+  padding-right: 25px;
+}
+footer .bg-grey .container .follow .social-menu li {
+  padding: 0 10px;
 }
