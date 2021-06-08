@@ -1,0 +1,100 @@
+header {
+
+    li {
+        text-transform: uppercase;
+    }
+
+    .top-row-menu {
+        background-color: $brand_primary;
+        text-align: right;
+
+        ul {
+            justify-content: flex-end;
+
+            li {
+                color: #ffffff;
+                padding: 5px 20px;
+                font-size: 12px;
+
+                .icon {
+                    font-size: 10px;
+                }
+
+                .sm{
+                    font-size: 6px;
+                    position: relative;
+                    top: -4px;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .header-content {
+        padding-top: 40px;
+        padding-bottom: 10px;
+
+        .container {
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+
+                img {
+                    width: 80px;
+                }
+            }
+
+            nav {
+
+
+                .menu {
+
+                    li {
+                        padding: 0 20px;
+
+                        a {
+                            text-decoration: none;
+                            font-size: 13px;
+                            font-weight: bold;
+                            color: #535455;
+
+                            &.active {
+                                color: $brand_primary;
+                                border-bottom: 4px solid $brand_primary;
+                                padding-bottom: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .search-content {
+                display: flex;
+
+                .search {
+                    border: 0;
+                    border-bottom: 2px solid #0282f9;
+                    text-align: right;
+                    width: 130px;
+                    padding: 1px 30px 1px 0;
+                    outline: 0;
+                }
+
+                i {
+                    position: relative;
+                    bottom: 1px;
+                    right: 25px;
+                    color: #535455;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+    .jumbotron {
+        height: 400px;
+        overflow: hidden;
+    }
+}

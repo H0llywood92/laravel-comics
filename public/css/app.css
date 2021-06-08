@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header li {
+  text-transform: uppercase;
+}
+header .top-row-menu {
+  background-color: #0282f9;
+  text-align: right;
+}
+header .top-row-menu ul {
+  justify-content: flex-end;
+}
+header .top-row-menu ul li {
+  color: #ffffff;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+header .top-row-menu ul li .icon {
+  font-size: 10px;
+}
+header .top-row-menu ul li .sm {
+  font-size: 6px;
+  position: relative;
+  top: -4px;
+  left: 0;
+}
+header .header-content {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+header .header-content .container {
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-content .container .logo img {
+  width: 80px;
+}
+header .header-content .container nav .menu li {
+  padding: 0 20px;
+}
+header .header-content .container nav .menu li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #535455;
+}
+header .header-content .container nav .menu li a.active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+  padding-bottom: 40px;
+}
+header .header-content .container .search-content {
+  display: flex;
+}
+header .header-content .container .search-content .search {
+  border: 0;
+  border-bottom: 2px solid #0282f9;
+  text-align: right;
+  width: 130px;
+  padding: 1px 30px 1px 0;
+  outline: 0;
+}
+header .header-content .container .search-content i {
+  position: relative;
+  bottom: 1px;
+  right: 25px;
+  color: #535455;
+  cursor: pointer;
+}
+header .jumbotron {
+  height: 400px;
+  overflow: hidden;
+}
