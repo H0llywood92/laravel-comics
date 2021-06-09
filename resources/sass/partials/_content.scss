@@ -86,5 +86,92 @@ main {
         }
     }
 
+    .single-product {
+
+        .bg-blue {
+            height: 100px;
+            background-color: $brand_primary;
+        }
+
+       .container {
+            position: relative;
+
+            .product-image {
+                position: absolute;
+                top: -320px;
+                left: 0;
+                border: 1px solid #ffffff;
+            }
+
+            .info {
+                padding: 80px 0;
+                justify-content: space-between;
+
+                .info-product {
+                    width: 60%;
+
+                    h1 {
+                        color: $product_title;
+                        text-transform: uppercase;
+                        font-size: 26px;
+                        padding-bottom: 20px;
+                    }
+
+                    .availability {
+                        justify-content: space-between;
+                        background-color: #55ba59;
+
+                        .price {
+                            width: 55%;
+                            color: #bafd9c;
+                        }
+
+                        .result-price {
+                            color: #ffffff;
+                        }
+
+                        .available {
+                            width: 20%;
+                            text-align: right;
+                            border-right: 1px solid #000000;
+                            color: #bafd9c;
+                            text-transform: uppercase;
+                        }
+
+                        .check-availability{
+                            width: 25%;
+                            color: #ffffff;
+                        }
+
+                        
+
+                        .price,
+                        .available,
+                        .check-availability {
+                            padding: 15px;
+                        }
+
+                    }
+
+                    p {
+                        padding: 20px 0;
+                        font-size: 18px;
+                        line-height: 25px;
+                        color: $grey_text;
+                    }
+                }
+
+                .adv-image {
+                    width: 40%;
+                    text-align: right;
+
+                    h3 {
+                        color: $grey_text;
+                    }
+                }
+            }
+        }
+    }
+
     
 }
