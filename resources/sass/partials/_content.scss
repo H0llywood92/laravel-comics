@@ -170,6 +170,128 @@ main {
                     }
                 }
             }
+
+            
+        }
+
+        .cast {
+            background-color: #f6f6f6;
+            border-top: 1px solid lightgray;
+            padding-top: 60px;
+            
+            .cast-content {
+                justify-content: space-between;
+                align-items: baseline;
+
+                .list-title {
+                    width: 30%;
+                    color: #003f5e;
+                }
+
+                .data-of-product {
+                    width: 70%;
+                }
+
+                h2 {
+                    color: #003f5e;
+                }
+
+                .artist-content {
+                    width: 50%;
+    
+        
+                    li{
+                        display: inline-block;
+                        color: #00a9df;
+                        font-size: 14px;
+                        line-height: 10px;
+        
+                    }
+                    
+
+                    .artist,
+                    .writers,
+                    h2 {
+                        border-bottom: 1px solid #e3e3e3;
+                        padding: 15px 0;
+                        
+                    }
+                }
+    
+                .info-content {    
+                    width: 45%;
+
+                    .series,
+                    .price,
+                    .on-sale,
+                    h2 {
+                        padding: 15px 0;
+                        border-bottom: 1px solid #e3e3e3;
+                    }
+
+                    .specs-series {
+                        text-transform: uppercase;
+                        color: #00a9df;
+                    }
+                }
+            }
+
+            .icon-container {
+                margin-top: 60px;
+                border-top: 1px solid #e3e3e3;
+
+                .icon-product-page {
+                    
+
+                    .single-icon {
+                        padding: 10px;
+                        color: $grey_text;
+                        width: calc(100% / 4);
+                        justify-content: space-around;
+                        border-left: 1px solid #e3e3e3;
+
+                        &:last-child {
+                            border-right: 1px solid #e3e3e3;
+                        }
+
+                        h5 {
+                            text-transform: uppercase;
+                        }
+                        
+
+                        #digital-comics,
+                        #shop-dc,
+                        #comic-shop,
+                        #subscription {
+                            background-image: url(../img/cta-icons.png);
+                            background-repeat: no-repeat;
+                            background-size: 180px;
+                            height: 45px;
+                            width: 45px;
+                        }
+
+                        #digital-comics {
+                            background-position: 0 0;
+                        } 
+
+                        #shop-dc {
+                            background-position: -135px 0;
+                        }
+
+                        #comic-shop {
+                            background-position: -90px 0;
+                        }
+
+                        #subscription {
+                            background-position: -45px 0;
+                        }
+                    }
+
+                   
+                }
+            }
+
+            
         }
     }
 

@@ -230,6 +230,93 @@ main .single-product .container .info .adv-image {
 main .single-product .container .info .adv-image h3 {
   color: #535455;
 }
+main .single-product .cast {
+  background-color: #f6f6f6;
+  border-top: 1px solid lightgray;
+  padding-top: 60px;
+}
+main .single-product .cast .cast-content {
+  justify-content: space-between;
+  align-items: baseline;
+}
+main .single-product .cast .cast-content .list-title {
+  width: 30%;
+  color: #003f5e;
+}
+main .single-product .cast .cast-content .data-of-product {
+  width: 70%;
+}
+main .single-product .cast .cast-content h2 {
+  color: #003f5e;
+}
+main .single-product .cast .cast-content .artist-content {
+  width: 50%;
+}
+main .single-product .cast .cast-content .artist-content li {
+  display: inline-block;
+  color: #00a9df;
+  font-size: 14px;
+  line-height: 10px;
+}
+main .single-product .cast .cast-content .artist-content .artist,
+main .single-product .cast .cast-content .artist-content .writers,
+main .single-product .cast .cast-content .artist-content h2 {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 15px 0;
+}
+main .single-product .cast .cast-content .info-content {
+  width: 45%;
+}
+main .single-product .cast .cast-content .info-content .series,
+main .single-product .cast .cast-content .info-content .price,
+main .single-product .cast .cast-content .info-content .on-sale,
+main .single-product .cast .cast-content .info-content h2 {
+  padding: 15px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+main .single-product .cast .cast-content .info-content .specs-series {
+  text-transform: uppercase;
+  color: #00a9df;
+}
+main .single-product .cast .icon-container {
+  margin-top: 60px;
+  border-top: 1px solid #e3e3e3;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon {
+  padding: 10px;
+  color: #535455;
+  width: calc(100% / 4);
+  justify-content: space-around;
+  border-left: 1px solid #e3e3e3;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon:last-child {
+  border-right: 1px solid #e3e3e3;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon h5 {
+  text-transform: uppercase;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon #digital-comics,
+main .single-product .cast .icon-container .icon-product-page .single-icon #shop-dc,
+main .single-product .cast .icon-container .icon-product-page .single-icon #comic-shop,
+main .single-product .cast .icon-container .icon-product-page .single-icon #subscription {
+  background-image: url(../img/cta-icons.png);
+  background-repeat: no-repeat;
+  background-size: 180px;
+  height: 45px;
+  width: 45px;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon #digital-comics {
+  background-position: 0 0;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon #shop-dc {
+  background-position: -135px 0;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon #comic-shop {
+  background-position: -90px 0;
+}
+main .single-product .cast .icon-container .icon-product-page .single-icon #subscription {
+  background-position: -45px 0;
+}
 
 footer {
   background-image: url("../img/footer-bg.jpg");
