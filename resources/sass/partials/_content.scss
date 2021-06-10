@@ -299,5 +299,34 @@ main {
     }
     // Single Product
 
+    // ERROR
+    .error-content {
+        padding: 80px 0;
+        background-color: #1c1c1c;
+        height: 600px;
+        position: relative;
+            
+        h1 {
+            color: $brand_primary;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+
+            .error {
+
+                &::after {
+                    content: '';
+                    border-right: 1px solid $brand_primary;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+            
+    }
+    // END ERROR
+
     
 }

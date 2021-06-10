@@ -317,6 +317,24 @@ main .single-product .cast .icon-container .icon-product-page .single-icon #comi
 main .single-product .cast .icon-container .icon-product-page .single-icon #subscription {
   background-position: -45px 0;
 }
+main .error-content {
+  padding: 80px 0;
+  background-color: #1c1c1c;
+  height: 600px;
+  position: relative;
+}
+main .error-content h1 {
+  color: #0282f9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .error-content h1 .error::after {
+  content: "";
+  border-right: 1px solid #0282f9;
+  padding-left: 10px;
+}
 
 footer {
   background-image: url("../img/footer-bg.jpg");
