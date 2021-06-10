@@ -58,7 +58,7 @@
                         <div class="data-of-product">
 
                             @include('components.artist-list', [
-                                'type_of_artist' => 'artists'
+                                'type_of_artist' => $product['artists']
                             ])                      
 
                         </div>
@@ -75,7 +75,7 @@
                         <div class="data-of-product">
 
                             @include('components.artist-list', [
-                                'type_of_artist' => 'writers'
+                                'type_of_artist' => $product['writers']
                             ])                      
 
                         </div> 

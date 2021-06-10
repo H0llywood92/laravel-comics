@@ -1,6 +1,6 @@
 <ul class="artist-name">
 
-    @foreach ($product[$type_of_artist] as $item)
+    @foreach ($type_of_artist as $item)
 
     <li>{{ $item }} {{!$loop->last ? ',' : '' }}
         {{-- This is the last iteration --}}
