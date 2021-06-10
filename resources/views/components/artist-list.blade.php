@@ -2,11 +2,13 @@
 
     @foreach ($product[$type_of_artist] as $item)
 
-    <li>{{ $item }} </li>
+    <li>{{ $item }} {{!$loop->last ? ',' : '' }}
+        {{-- This is the last iteration --}}
+    </li>
 
-    @if(!$loop->last)
+    {{-- @if(!$loop->last)
     ,
-    @endif
+    @endif --}}
 
     @endforeach
 
